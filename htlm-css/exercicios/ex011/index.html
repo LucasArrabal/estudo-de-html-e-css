@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>teste essas imagens em diversos aparelhos:</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="img/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="img/medio.png" type="image/png">
+        <img src="img/grande.png" alt="">
+    </picture>
+    <h1>Reporduzindo Audio</h1>
+    <p>Matue- 777-666:</p>
+    <audio src="midia/matue.mp3"controls autoplay> c</audio>
+   <h1>Outra maneira de Reporduzir Audio</h1>
+   <audio controls>
+      <source src="midia/matue.mp3" type="audio/mpeg">
+      <p>infelizmente seu navegador nao consegue reproduzir o audio, <a href="midia/matue.mp3">clique aqui para baixar</a></p>
+   </audio>
+    
+</body>
+</html>
